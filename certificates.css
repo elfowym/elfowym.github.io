@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 0px;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #00394d;
+    color: #fff;
+    font-family: Serif, Georgia;
+    font-size: 18px;
+
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 22%;
+    margin-bottom: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  main {
+    display: block flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.certificate-card {
+    flex: 0 0 calc(33.33% - 40px); /* Each card takes 33.33% of the container width with some margin */
+    margin-top: 55px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.certificate-card h2 {
+    margin-bottom: 10px;
+}
+
+.certificate-card p {
+    margin-bottom: 5px;
+}
+
+.certificate-card a {
+    display: block;
+    color: #007bff; /* Replace with your preferred link color */
+    text-decoration: none;
+}
+
+
