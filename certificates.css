@@ -18,7 +18,7 @@ body {
     color: #fff;
     font-family: Serif, Georgia;
     font-size: 18px;
-
+    padding: 35px;
 }
 
 
@@ -78,3 +78,6 @@ body {
 }
 
 
+.h1 {
+    font-size: 40px;
+}
